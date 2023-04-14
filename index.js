@@ -1,4 +1,4 @@
-
+require('chromedriver')
 const {Builder, By, Key, until, Capabilities} = require('selenium-webdriver');
 var chromedriver = require('selenium-webdriver/chrome');
 var fs = require('fs')

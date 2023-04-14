@@ -1,3 +1,4 @@
+# update local chromedriver (macos)
 INSTALLED=$(which chromedriver)
 curl -o LATEST.txt https://chromedriver.storage.googleapis.com/LATEST_RELEASE
 LATEST=$(cat LATEST.txt)
