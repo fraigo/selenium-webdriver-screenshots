@@ -1,0 +1,13 @@
+{
+    "folder" : "screenshots",
+    "baseurl" : "https://www.google.com",
+    "width": 1024,
+    "height": 768,
+    "pages" : [
+        {
+            "url" : "/",
+            "tag" : "textarea",
+            "filename" : "home"
+        }
+    ]
+}
