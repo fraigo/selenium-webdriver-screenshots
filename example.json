@@ -3,6 +3,7 @@
     "baseurl" : "https://www.google.com",
     "width": 1024,
     "height": 768,
+    "headless": false,
     "pages" : [
         {
             "url" : "/",

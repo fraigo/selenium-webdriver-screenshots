@@ -39,7 +39,7 @@ function screenshotPages(driver, config, pos){
     var cfg = config.pages[pos]
     if (!cfg){
         console.log('Finished')
-        driver.close()
+        driver.quit()
         return
     }
     console.log('page',cfg)
@@ -83,7 +83,7 @@ var config = {}
 fs.readFile('example.json', 'utf8', function(err, data){
     config = JSON.parse(data)
     console.log(config)
-    const driver = getDriver(config.width,config.height);
+    const driver = getDriver(config.width,config.height,config.headless);
     screenshotPages(driver, config, 0)
 });
 
